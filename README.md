@@ -1,5 +1,4 @@
-Formation Développeur Web OpenClassrooms
------------------------------------------  
+#### Formation Développeur Web OpenClassrooms 
 
 HASSACI Hanya 
 ============= 
@@ -12,7 +11,7 @@ Compétences évaluées:
 -Implémenter une interface responsive  
 
 
-![Screenshot maquette Reservia.](pictures/ScreenReservia.png "Screenshot maquette Reservia.")
+![Screenshot maquette Reservia.](/pictures/ScreenReservia.png "Screenshot maquette Reservia.")
 
 Outils: 
 ---------
