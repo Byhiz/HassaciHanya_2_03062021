@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: "Raleway";
-	src: url(Font/Raleway-VariableFont_wght.ttf); format:"truetype";
+	src: url(Font/Raleway-VariableFont_wght.ttf);
 		font-weight: normal;
 		font-style: normal;
 }
@@ -70,12 +70,12 @@ nav li{
 }
 
 li {
-    margin-top: 0m;
+    margin-top: 0.1em;
     padding-top: 2em;
 }
 
 .ancrepartheader{
-    margin-top: 0m;
+    margin-top: 0.1em;
     padding-top: 2em;
     text-decoration: none;
 }
