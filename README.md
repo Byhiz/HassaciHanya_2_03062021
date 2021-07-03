@@ -1,17 +1,21 @@
-###Formation Développeur Web OpenClassrooms  
+Formation Développeur Web OpenClassrooms
+-----------------------------------------  
 
 HASSACI Hanya 
 ============= 
 
-##Compétences évaluées: 
-
+Compétences évaluées: 
+---------------------
 -Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
 -Mettre en place son environnement Front-End
 -Intégrer du contenu conformément à une maquette
 -Implémenter une interface responsive  
 
-##Outils:  
 
+![Screenshot maquette Reservia.](/desktop/ScreenReservia.png "Screenshot maquette Reservia.")
+
+Outils: 
+---------
 -Git et GitHub  
 -HTML5
 -CSS3
@@ -20,8 +24,8 @@ HASSACI Hanya
 -CSS Grid
 -ValidatorW3  
 
-##Cahier des charges:  
-
+Cahier des charges:  
+--------------------
 -Le code doit être versionné avec Git et avoir un repo distant sur GitHub ou GitLab
 -L'intégration doit se faire en HTML5 et CSS3 sans framework
 -Le HTML et le CSS doivent être séparés et organisés dans un dossier
