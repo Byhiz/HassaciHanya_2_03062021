@@ -10,9 +10,6 @@ Compétences évaluées:
 -Intégrer du contenu conformément à une maquette  
 -Implémenter une interface responsive  
 
-
-![Screenshot maquette Reservia.](/pictures/ScreenReservia.png "Screenshot maquette Reservia.")
-
 Outils: 
 ---------
 -Git et GitHub  
