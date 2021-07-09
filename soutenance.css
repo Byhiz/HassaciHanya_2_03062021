@@ -1,0 +1,809 @@
+/*Font*/
+
+@font-face {
+	font-family: "Raleway";
+	src: url(Font/Raleway-VariableFont_wght.ttf);
+		font-weight: normal;
+		font-style: normal;
+}
+
+ body{
+     font-family: Raleway, Arial, Verdana, sans-serif;
+     color: black;
+     padding: 0.5em;
+    }   
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.colorstar{
+    color:#0065FC;
+}
+
+.star{
+    color: #f2f2f2;
+}
+
+/*Header*/
+
+header{
+    display: grid;
+    align-items: center;
+    width: 100%;
+}
+
+#LogoReservia{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+
+#navigation{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 7;
+    grid-column-end: 9;
+}
+
+#navlist{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Logon{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 9;
+    grid-column-end: 10;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav li{
+    margin-right: 0.5em;
+}
+
+li {
+    margin-top: 0.1em;
+    padding-top: 2em;
+}
+
+.ancrepartheader{
+    margin-top: 0.1em;
+    padding-top: 2em;
+    text-decoration: none;
+}
+
+.partnav:hover{
+    border-top: 0.1em #609ffd solid;
+}
+
+a.ancre:hover{
+    color: #609ffd;
+}
+
+.ancre{
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+em{
+    font-weight: bold;
+    color: blue;
+    font-style: normal;
+}
+
+/*Titre*/
+
+#ContRecherche h2{
+    font-size: 1.25em;
+}
+
+#ContRecherche p{
+    margin-top: -0.5em;
+}
+/*Recherche*/
+
+#recherche{
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    width: 35%;
+    border-radius: 1em;
+    display: flex;
+}
+
+.elementsearch:nth-child(1) {
+	flex: 1;
+}
+.elementsearch:nth-child(2) {
+	flex: 3;
+}
+.elementsearch:nth-child(3) {
+	flex: 2;
+}
+
+#localisation{
+    border:none;
+    padding: 1em 1.5em 1em 1.5em;
+    border-radius: 1em 0em 0em 1em;
+    background-color: #f2f2f2;
+}
+
+#mysearch{
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    border: solid 0.1em #f2f2f2;
+    padding: 0.5em 0em 0.5em 1.5em;
+    font-weight: bold;
+}
+
+::placeholder{
+    color: black;
+	font-family: "Raleway";
+}
+
+#search{
+    background-color: #0065FC;
+    border: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 0em 1em 1em 0em;
+	font-family: "Raleway";
+}
+
+/*Filtres*/
+
+#filtres{
+    padding-top: 2em;
+    font-size: 1.1em;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+#ContFiltres{
+    margin: 0em 0em 0em 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partfiltre{
+    border: 0.15em solid #d9d9d9;
+    border-radius: 3em;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    padding-right: 1em;
+    padding-left: 0.2em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    text-decoration: none;
+    margin-right: 1.5em;
+}
+
+.partfiltre:hover{
+    background-color: #0065FC;
+    color: white;
+}
+
+.iconfiltre{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    width: 26px;
+    height: 33px;
+    border-radius: 50px;
+	padding: 12px 10px 0px 6px;
+	margin-right: 0.25em;
+	margin-left: -0.10em;
+	border: 2px solid #DEEBFF;
+	margin-bottom: 0em
+}
+
+#info{
+    padding: 2em 0em 1.5em 0em;
+}
+
+#iconinfo{
+    color:#0065FC;
+	background-color:white;
+	border: 2px solid #d9d9d9;
+	border-radius: 20em;
+	padding: 0.25em;
+	padding-left: 0.50em;
+	padding-right: 0.50em;
+	margin-right: 0.50em;
+	margin-left: 0em;
+}
+
+/*Hébergements*/
+
+#Hebergements{
+	display: flex;
+	flex-direction: row;
+	height: 700px;
+}
+
+#MarsHeb{
+	background-color: #f2f2f2;
+	border-radius: 1em;
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	height: 100%;
+}
+
+#TitreMars{
+	padding-left: 1em;
+	margin: 2em 0em 0em 1em;
+	width: 90%;
+	height: 10%;
+}
+
+.ContMarsHeb{
+	width:100%;
+	height: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: -3em;
+}
+
+.CartesMars{
+	background-color: white;
+	box-shadow: 1em 1em 1em #e6e6e6;
+	width: 27%;
+	height: 40%;
+	margin: 0em;
+	padding: 0.5em;
+	border-radius: 1em;
+}
+
+.imgheb{
+	object-fit: cover;
+	width: 100%;
+	height: 65%;
+	border-radius: 0.8em 0.8em 0em 0em;
+}
+
+#plus{
+    height: 3em;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-left: 2em;
+    margin-top: 4em;
+}
+
+#plus a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Populaires*/
+
+#populaires{
+	background-color: #f2f2f2;
+	margin-left: 1.5em;
+	border-radius: 1em;
+	width: 30%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#TitrePop{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1em 3em 0em 3em;
+	width: 90%;
+	height: 10%;
+}
+
+#ContPopulaire{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 90%;
+}
+
+.CartesPop{
+	background-color: white;
+	box-shadow: 1em 1em 2em #e6e6e6;
+	width: 85%;
+	height: 35%;
+	padding: 0.5em;
+	border-radius: 1em;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.PartPop{
+	height: 100%;
+	width: 50%;
+}
+
+.imagesPop{
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	border-radius: 1em 0em 0em 1em;
+}
+
+.LegendePop{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0.4em;
+}
+
+
+/*Activités*/
+
+#activites{
+    margin: 3em 1em -5em 1em;
+}
+
+#ContActivites{
+    display: grid;
+    grid-template-rows: 9% 9% 9% 9% 9% 9% 9% 9% 9% 9%;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-column-gap: 1em;
+    height: 600px;
+    width: 100%;
+}
+
+.CartesAct{
+    margin: 1em 0em 2em -1em;
+    max-height: 100%;
+    width: 100%;
+    border: solid 2px #f2f2f2;
+    border-radius: 1em;
+    box-shadow: 1em 1em 2em #e6e6e6;
+    overflow: hidden;
+}
+
+.CartesAct:nth-child(1){
+    grid-row-start: 1;
+    grid-row-end: 10;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.CartesAct:nth-child(2){
+    grid-row-start: 1;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.CartesAct:nth-child(3){
+    grid-row-start: 6;
+    grid-row-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.CartesAct:nth-child(4){
+    grid-row-start: 1;
+    grid-row-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.CartesAct:nth-child(5){
+    grid-row-start: 1;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.CartesAct:nth-child(6){
+    grid-row-start: 6;
+    grid-row-end: 10;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.LegendeAct{
+    padding: 0.5em 0em 0em 1em;
+    background-color: white;
+    height: 20%;
+}
+
+.imgAct{
+    object-fit: cover;
+    width:100%;
+    height: 80%;
+    border-radius: 1em 1em 0em 0em;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #f2f2f2;
+    margin: 0em -1em -1em -4em;
+    padding: 1em -5em 2em 0em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom{
+    margin: 1em 0em 0em -13em;
+}
+
+nav h3{
+    margin-left: 2em;
+}
+
+.PartBottom{
+    color: black;
+    text-decoration: none;
+}
+
+/*Media Queries Ecran PC 1024px < W */
+
+@media screen and (min-width: 1024px) {
+	#IconSearch {
+		display: none;
+	}
+}
+
+/* Media Queries Tablette 768px < W < 1024px */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+	#IconSearch{
+		display: none;
+	}
+
+	#recherche{
+		margin-top: 2em;
+	}
+
+	#filtres {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		margin-top: 0em;
+	}
+
+	#ContFiltres {
+		margin-left: 5em;
+		margin-top: -3em;
+	}
+
+	#Hebergements {
+		flex-direction: column-reverse;
+		justify-content: start;
+		height: 900px;
+	}
+
+	#TitreMars{
+		margin-top: 2em;
+		margin-bottom: 1em;
+	}
+
+	#populaires {
+		width: 98%;
+		height: 30%;
+		margin: 2%;
+	}
+
+	#TitrePop {
+		height: 20%;
+		width: 90%;
+	}
+
+	#ContPopulaire {
+		flex-direction: row;
+		height: 600px;
+		width: 100%;
+	}
+
+	.CartesPop {
+		height: 80%;
+		width: 27%;
+		margin: 0em;
+	}
+
+	.PartPop{
+		width: 55%;
+	}
+
+	.LegendePop{
+		width: 45%;
+		font-size: 85%;
+	}
+
+	#ContMarsHeb{
+		width: 90%;
+		height: 600px;
+	}
+
+	#MarsHeb {
+		width: 100%;
+		height: 70%;
+		background-color: white;
+	}
+
+	#plus{
+		margin-top: 1%;
+	}
+
+	#ContActivites {
+	grid-template-columns: 30% 30% 30% ;
+	grid-template-rows: 50% 50%;
+	grid-column-gap: 2em;
+	height: 600px;
+	width: 90%;
+	margin-left: 3em;
+	}
+
+	.CartesAct:nth-child(1) {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+	.CartesAct:nth-child(2) {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 3;	
+}
+
+	.CartesAct:nth-child(3) {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 3;
+	grid-column-end: 4;	
+}
+
+	.CartesAct:nth-child(4) {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;	
+}
+
+	.CartesAct:nth-child(5) {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;	
+}
+
+	.CartesAct:nth-child(6) {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 4;	
+}
+
+.imgAct {
+	height: 77%;
+}
+
+footer{
+	margin-top: 5em;
+	padding-top: 0.2em;
+	padding-bottom: 0em;
+}
+
+.bottom {
+	width: 20%;
+	margin-left: 1%;
+}
+
+.bottom h3{
+	margin-bottom: -1.5em;
+}
+}
+
+/* Media Queries telephone < 767px */
+
+@media screen and (max-width: 767px) {
+
+	#Header {
+			grid-template-columns: 24% 24% 24% 24%;
+			width: 95%;
+		}
+	#LogoReservia {
+		grid-row-start: 1;
+		grid-row-end: 2;
+		grid-column-start: 1;
+		grid-column-end: 2;
+		}
+	#navigation {
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 1;
+		grid-column-end: 3;
+		font-size: 1.3em;
+		width: 100%;
+		justify-content: normal;
+		}
+	#Logon {
+		grid-row-start: 1;
+		grid-row-end: 2;
+		grid-column-start: 2;
+		grid-column-end: 3;
+		font-size: 1.3em;
+		padding-right: 1em;
+		}
+
+	#navlist {
+		border-bottom: solid 0.1em #f2f2f2;
+		justify-content: center;
+		margin-left: -1em;
+	}
+
+	.partnav {
+			padding: 3em 1em 1em 0.5em;
+			margin-bottom: 0em;
+			text-align: center;
+	}
+
+	.partnav:hover {
+	border-top: none;
+	border-bottom: solid 0.2em #609ffd; 
+	}
+
+	#recherche {
+		margin-top: 2em;
+		margin-left: -0.5em;
+		width: 100%;
+	}
+	.buttonsear:nth-child(1) {
+		flex: 1;
+	}
+
+	.buttonsearch:nth-child(2) {
+		flex: 2;
+	}
+
+	.buttonsearch:nth-child(3) {
+		flex: 1;
+	}
+
+	#mysearch {
+	font-size: 1.20em;
+	border: solid 0.1em #f2f2f2;
+	padding: 0.5em 0em 0.5em 0.5em;
+	width: 65%;
+	}
+
+	#IconSearch{
+		background-color: #0065FC;
+		color: white;
+		border: none;
+		border-radius: 1em 1em 1em 1em;
+		height: 50px;
+		width: 50px;
+		font-size: 100%;
+	}
+
+	#search {
+		display: none;
+	}
+
+	#filtres {
+		flex-direction: column;
+		align-items: normal;
+		width: 100%;
+	}
+
+	#filtres h3 {
+		margin: 0em 0em 1em 1em;
+	}
+
+	#ContFiltres {
+        display: flex;
+		flex-wrap: wrap;
+		margin-left: 1em;
+		margin-bottom: 1em;
+		align-content: space-around;
+	}
+
+	#Hebergements {
+        display: flex;
+		flex-direction: column-reverse;
+		justify-content: flex-start;
+		height: 2500px;
+	}
+
+	#populaires {
+		width: 100%;
+		height: 25%;
+		margin-left: 0em;
+		border-radius: 0em;
+		padding: 0em 0em 0em 0em;
+	}
+
+
+	.CartesPop {
+		height: 25%;
+		width: 80%;
+		margin: 0em;
+	}
+
+	#MarsHeb {
+		width: 100%;
+		height: 75%;
+		margin-top: 1em;
+		background-color: white;
+	}
+
+	.ContMarsHeb {
+        display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+		height: 90%;
+		margin-bottom: 1em;
+		
+	}
+
+	#TitreMars {
+		height: 10%;
+	}
+
+	.CartesMars {
+		width: 70%;
+		height: 15%;
+	}
+
+	#plus {
+		margin-top: 3em;
+	}
+
+	.activites {
+		width: 100%;
+	}
+
+	#ContActivites {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+		justify-content: space-around;
+		height: 1800px;
+	}
+
+	.CartesAct {
+		height: 16.6% ;
+		width: 80%;
+	}
+
+	footer {
+	display: flex;
+    flex-wrap: wrap;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 5em;
+	}
+
+	.bottom {
+	margin: 1em 0em 0em 2em;
+
+}
+
+	.PartBottom {
+		margin-top: -1em;
+	}
+}
